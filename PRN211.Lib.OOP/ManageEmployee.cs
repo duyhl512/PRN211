@@ -8,7 +8,7 @@ namespace PRN211.Lib.OOP
 {
     public class ManageEmployee
     {
-        private List<Employee> _employees;
+        private List<Employee> _employees = new List<Employee>();
         public List<Employee> Employees { get => _employees;  }
 
 
